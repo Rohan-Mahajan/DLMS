@@ -1,0 +1,18 @@
+.textSlider{
+    background: #EF233C;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    /* font-siz e: .8rem; */
+    /* margin-top: 67px; */
+}
+
+.slider-text-display{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    /* margin: right 1rem;; */
+}

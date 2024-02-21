@@ -1,0 +1,18 @@
+.productDetailMiddle {
+    background: #fff;
+    padding: 18px 0;
+    overflow: auto;
+}
+
+.productDetailMiddle h1 {
+    margin-top: 0;
+    color: #e01e43;
+    font-size: 30px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.vmheadings{
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.option,.navbar-link{
+    font-size: 20px;
+    font-weight: 700;
+    color:#EDF2F4 !important; 
+    /* margin: 0 20px; */
+}
+.navbar-link:hover,
+.navbar-link.active{
+    color: #EF233C !important;
+}
+.backColor{
+    background-color: #2B2D42;
+}
+.active{
+    color: #EF233C;
+}

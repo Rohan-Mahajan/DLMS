@@ -1,0 +1,55 @@
+.clhg-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .middle_header {
+    position: relative;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    padding: 5px 0;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.logo_inline {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.logo_inline .logo_box {
+    max-width: 70px;
+}
+a {
+    color: var(--theme_link_color);
+    text-decoration: none;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.logo_text {
+    text-align: center;
+}
